@@ -1,7 +1,7 @@
 name: Promote-to-staging
 
 on:
-  pull_request:
+  push:
         branches:
             - testGitHub
         types:
